@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オンボーディング・ポータル</title>
+    <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <h1>オンボーディング・ポータル</h1>
+        </div>
+        <div class="header-center">
+            <input type="text" class="search-box" placeholder="AI検索...">
+            <button class="search-btn">🔍</button>
+        </div>
+        <nav class="header-right">
+            <a href="#" class="header-link">社内ポータル</a>
+            <a href="#" class="header-link">FAQ</a>
+            <a href="#" class="header-link">ITサポート</a>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#home">🏠 ホーム（全体ロードマップ）</a></li>
+                    <li><a href="#30days">📅 30 Days</a></li>
+                    <li><a href="#60days">📅 60 Days</a></li>
+                    <li><a href="#90days">📅 90 Days</a></li>
+                    <li><a href="#180days">📅 180 Days</a></li>
+                    <li><a href="#365days">📅 365 Days</a></li>
+                    <li><a href="#buddies">🤝 伴走者ガイド</a></li>
+                    <li><a href="#manuals">📚 虎の巻</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <section id="home">
+                <h2>🚀 全体ロードマップ</h2>
+                <img src="roadmap.png" alt="1年間のロードマップ" class="roadmap-img">
+            </section>
+            <section id="30days">
+                <div class="phase-banner">💡 30 Days：会社とチームを理解する</div>
+                <div class="action-cards">
+                    <div class="action-card">
+                        <h3>✅ 本人のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 上司との期待値のすり合わせ <button class="ai-btn">AIで面談アジェンダ作成</button></li>
+                            <li><input type="checkbox"> 違和感や気づきを記録</li>
+                            <li><input type="checkbox"> チームメンバーとの1on1</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 上司のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 入社者との期待値のすり合わせ</li>
+                            <li><input type="checkbox"> ステークホルダーへの紹介</li>
+                            <li><input type="checkbox"> 業務品質や判断基準など説明</li>
+                            <li><input type="checkbox"> チームでの交流機会の設定</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ チームメンバーのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 受入雰囲気の醸成</li>
+                            <li><input type="checkbox"> バディーによる業務の伴奏</li>
+                            <li><input type="checkbox"> 必要情報の提供</li>
+                            <li><input type="checkbox"> 業務ごとの担当者説明と相談窓口</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事CoEのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 会社概要/各事業部理解の資料や研修</li>
+                            <li><input type="checkbox"> システム・ツールの使い方提供</li>
+                            <li><input type="checkbox"> AI活用の振り返りやオンボーディングサポート</li>
+                            <li><input type="checkbox"> バリュー・決裁・人事規定の提供</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tools-section">
+                    <button class="tool-btn">eラーニング</button>
+                    <button class="tool-btn">振り返りフォーム</button>
+                </div>
+            </section>
+            <section id="60days">
+                <div class="phase-banner">💡 60 Days：小さな成功体験を積む</div>
+                <div class="action-cards">
+                    <div class="action-card">
+                        <h3>✅ 本人のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> レポートラインの把握</li>
+                            <li><input type="checkbox"> チームメンバーからFBをもらう <button class="ai-btn">AIでFB分析</button></li>
+                            <li><input type="checkbox"> MTGで積極的に意見をいう</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 上司のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 成果創出業務の付与</li>
+                            <li><input type="checkbox"> 業務背景の説明</li>
+                            <li><input type="checkbox"> 悩みやつまりの除去</li>
+                            <li><input type="checkbox"> アウトプット促進</li>
+                            <li><input type="checkbox"> 1on1促進</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ チームメンバーのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 暗黙知の共有</li>
+                            <li><input type="checkbox"> 情報提供</li>
+                            <li><input type="checkbox"> 提案・アウトプット歓迎</li>
+                            <li><input type="checkbox"> 意見を聞く</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事CoEのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> ツール・インフラのサポート</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tools-section">
+                    <button class="tool-btn">フィードバックフォーム</button>
+                </div>
+            </section>
+            <section id="90days">
+                <div class="phase-banner">💡 90 Days：自律的に業務を遂行する</div>
+                <div class="action-cards">
+                    <div class="action-card">
+                        <h3>✅ 本人のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 改善提案/提言を行う</li>
+                            <li><input type="checkbox"> 期待値ギャップの確認</li>
+                            <li><input type="checkbox"> チームメンバーにFBする</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 上司のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 提案の受容と支援</li>
+                            <li><input type="checkbox"> 振り返り・評価FB</li>
+                            <li><input type="checkbox"> 期待値ギャップ修正</li>
+                            <li><input type="checkbox"> 1年後の目標再確認</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ チームメンバーのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 仕事を任せる</li>
+                            <li><input type="checkbox"> FBやギャップ解消のフォロー</li>
+                            <li><input type="checkbox"> チーム外コネクション支援</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事HRBPのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 試用期間の確認</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事CoEのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> コミュニティの提供・サポート</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tools-section">
+                    <button class="tool-btn">3ヶ月振り返りフォーム</button>
+                </div>
+            </section>
+            <section id="180days">
+                <div class="phase-banner">💡 180 Days：影響範囲をチーム外にも広げる</div>
+                <div class="action-cards">
+                    <div class="action-card">
+                        <h3>✅ 本人のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> チーム外とのコミュニケーション</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 上司のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 振り返り・評価FB</li>
+                            <li><input type="checkbox"> 期待値ギャップ修正</li>
+                            <li><input type="checkbox"> 影響範囲拡大業務のアサイン</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事CoEのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 振り返り促進</li>
+                            <li><input type="checkbox"> コミュニティ提供</li>
+                            <li><input type="checkbox"> 退職者・求職者のモニタリング</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tools-section">
+                    <button class="tool-btn">半年レビューシート</button>
+                </div>
+            </section>
+            <section id="365days">
+                <div class="phase-banner">💡 365 Days：安定して業務成果を出し続ける</div>
+                <div class="action-cards">
+                    <div class="action-card">
+                        <h3>✅ 上司のタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> 振り返り・評価FB</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事HRBPのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> メンタルチェック</li>
+                            <li><input type="checkbox"> 組織フィット・パフォーマンス確認</li>
+                        </ul>
+                    </div>
+                    <div class="action-card">
+                        <h3>✅ 人事CoEのタスク</h3>
+                        <ul>
+                            <li><input type="checkbox"> パフォーマンスモニタリング</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tools-section">
+                    <button class="tool-btn">1年レビューシート</button>
+                </div>
+            </section>
+            <section id="buddies">
+                <h2>🤝 バディ制度ガイド</h2>
+                <div class="guide-section">
+                    <h3>バディの目的・役割</h3>
+                    <p>バディは新入社員の早期活躍をサポートする伴走者です。選定基準や役割を明確にし、日常的な相談やフィードバックを行います。</p>
+                </div>
+                <div class="guide-section">
+                    <h3>💬 バディ向け：ランチや相談のヒント集</h3>
+                    <ul>
+                        <li>定期的なランチや1on1の実施</li>
+                        <li>業務以外の話題も交えてリラックスした雰囲気作り</li>
+                        <li>困りごとや悩みを早期にキャッチアップ</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="manuals">
+                <h2>📚 虎の巻（規定・ツール・AIチャット）</h2>
+                <ul>
+                    <li><a href="#">就業規則</a></li>
+                    <li><a href="#">経費精算マニュアル</a></li>
+                    <li><a href="#">ITツールマニュアル</a></li>
+                    <li><a href="#">社内ナレッジAIチャット</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
